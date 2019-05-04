@@ -29,8 +29,6 @@ $form->onSubmit(function($form) {
     $result = ($P / $n);
   }
 
-
-
   if ($i == '^') {
     $result = 1;
     for ($c = 1; $c <= $n; $c++ ){
