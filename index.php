@@ -39,11 +39,3 @@ $form->onSubmit(function($form) {
 
   return $form->success('Result is ' . $result);
 });
-
-$button3 = $app->add('Button');
-$button3->set('Again');
-$button3->link('index.php');
-
-$butoon0 = $app->add('Button');
-$button0->set('Ģo home');
-S
